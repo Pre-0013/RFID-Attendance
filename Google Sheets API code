@@ -2,7 +2,6 @@ var ss = SpreadsheetApp.openById('1zj4EmPijx_nZt2YpSCZBtrYWZa5s_FxYC6uC9DczUcY')
 var sheet = ss.getSheetByName('Sheet1');
 var timezone = "Asia/Kolkata";
 
-
 function doGet(e){
   Logger.log( JSON.stringify(e) );
   if (e.parameter == 'undefined') {
